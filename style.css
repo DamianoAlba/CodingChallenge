@@ -1,0 +1,103 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#totale{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  width: 1000px;
+  height: 600px;
+
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+#logo{
+  width: 300px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#titolo{
+  color: lime;
+  font-family: sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+#buttons{
+  background-color: lime;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#lbl{
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#underlbl{
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#progress1{
+    display: inline-block;
+    margin-right: 2px;
+    width: 40%;
+    height: 30px;
+    background-color: #ffcc66;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+#progress2{
+    display: inline-block;
+    margin-right: 2px;
+    width: 65%;
+    height: 30px;
+    background-color: green;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+#progress3{
+    display: inline-block;
+    margin-right: 2px;
+    width: 25%;
+    height: 30px;
+    background-color: #ff5050;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+#opzione1{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#opzione2{
+  padding-bottom: 40px;
+}
+
+#opzione3{
+  padding-bottom: 60px;
+}
